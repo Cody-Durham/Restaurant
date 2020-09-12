@@ -1,3 +1,22 @@
+Instance: Kiles Head Chef at "New Grill"
+
+Attributes:
+  yearsOfExperience: 4
+  bestDishes: ['Tacos', 'Mashed Potatoes', 'Bacon Burger']
+  hatType: 'flexfit'
+  overworked: false
+
+
+
+Methods:
+  getsPromoted: yearsOfExperience = 6
+  opensNewRestaurant: bestDishes = ['Tacos', 'Mashed Potatoes', 'Bacon Burger', ' BLT']
+  startsShift: hatType = 'cheff hat'
+  needSleep: overworked = true
+
+
+
+
 Class: Cheff
 
 
@@ -13,6 +32,5 @@ Attributes:
 Methods:
   getsPromoted (add 2 to yearsOfExperience)
   opensNewRestaurant (add 1 new dish bestDishes array)
-  startsShift (changes hatType from 'chef hat')
+  startsShift (changes hatType from 'cheff hat')
   needSleep (change value of overworked to true)
-  
