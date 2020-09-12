@@ -1,3 +1,21 @@
+Instance: My Favorite Mixed Drink
+
+Attributes:
+  flavorType: ['Sprite', 'Strawberry', 'Mint']
+  hasIce: true
+  alcoholContent: 4
+  beverageName: "new drink"
+
+
+
+Methods:
+  addFlavor: flavorType =  ['Sprite', 'Strawberry', 'Mint', 'chocolate']
+  sitsTooLong: hasIce = false
+  makeDouble: alcoholContent = 8
+  personalize: beverageName =  'Jahara's new drink'
+
+
+
 Class: Drinks
 
 
