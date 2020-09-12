@@ -1,15 +1,28 @@
-Class: WineGlass
-
-
+Instance: Shadie Wine Bar
 
 Attributes:
-sparkle (array)
-shape (string)
-height (integer)
-hasLiquid (boolean)
+  sparkle = ['dirty']
+  shape = "goblet"
+  height = 200
+  hasLiquid = true
 
 Methods:
-cleanGlass (changes sparkle from dirty to clean)
-discribeStyle (print shape of glass)
-breakGlass (multiply glass by 0.8)
-spill (changes hasLiquid from true to fals)
+  cleanGlass: sparkle = ['clean']
+  discribeStyle: shape = "goblet"
+  breakGlass: 40
+  spill: hasLiquid = false
+
+
+Class: WineGlass
+
+Attributes:
+  sparkle (array)
+  shape (string)
+  height (integer)
+  hasLiquid (boolean)
+
+Methods:
+  cleanGlass (changes sparkle from dirty to clean)
+  discribeStyle (print shape of glass)
+  breakGlass (multiply glass by 0.8)
+  spill (changes hasLiquid from true to false)
