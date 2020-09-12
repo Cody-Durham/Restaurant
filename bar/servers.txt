@@ -1,0 +1,18 @@
+Class: Cheff
+
+
+
+Attributes:
+  yearsOfExperience (integer)
+  bestDishes (array)
+  hatType (sting)
+  overworked (boolean)
+
+
+
+Methods:
+  getsPromoted (add 2 to yearsOfExperience)
+  opensNewRestaurant (add 1 new dish bestDishes array)
+  startsShift (changes hatType from 'chef hat')
+  needSleep (change value of overworked to true)
+  
