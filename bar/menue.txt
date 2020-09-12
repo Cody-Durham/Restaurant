@@ -1,0 +1,18 @@
+Class: Lunch
+
+
+
+Attributes:
+  price (integer)
+  numberOfItems (integer)
+  foodChoices (array)
+  textColor (string)
+
+
+
+
+Methods:
+  discount (decrease price by 20%)
+  sellOut (decrease numberOfItems by 2)
+  pickMeal (print foodChoices [2])
+  spillWine (changes textColor to 'red')
