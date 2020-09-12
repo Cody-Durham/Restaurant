@@ -1,3 +1,23 @@
+Instance: Mikies Happy Hour Lunch Menue
+
+Attributes:
+  price: 10
+  numberOfItems: 15
+  foodChoices: ['Burger and Fries', 'Tacos', 'Spaghetti and meatballs', 'Pizza']
+  textColor: 'White'
+
+
+
+
+Methods:
+  discount: price = 8
+  sellOut: numberOfItems = 13
+  pickMeal: foodChoices= 'Spaghetti and meatballs'
+  spillWine: textColor = 'red'
+
+
+
+
 Class: Lunch
 
 
