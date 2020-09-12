@@ -1,0 +1,17 @@
+Class: Drinks
+
+
+
+Attributes:
+  flavorType (array)
+  hasIce (boolen)
+  alcoholContent (integer)
+  beverageName (string)
+
+
+
+Methods:
+  addFlavor (add chocolate to array)
+  sitsTooLong (changes hasIce from true to false)
+  makeDouble (multiply alcoholContent by 2)
+  personalize (add "Jahara" to beverageName)
